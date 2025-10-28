@@ -1,6 +1,6 @@
 package com.Day2;
 import java.util.Scanner;
-public class InputDemo {
+public class SimpleInterestCalculator {
     public static void main(String[] args) {
 //        int num=20;
         byte num=124;
