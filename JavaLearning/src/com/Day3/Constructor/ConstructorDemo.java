@@ -13,7 +13,7 @@ class Students{
     }
     //    No-args Constructor
     public Students(){
-        this("Sam",105,"IT","MSAJ");
+        this("Sarah",105,"Aero","MSAJ");
     }
     //    Copy Constructor
     public Students(Students s1){
@@ -32,15 +32,19 @@ public class ConstructorDemo {
         Students s1=new Students("Jannath",100,"EEE","MSAJ");
         s1.display();
         System.out.println("---------------------------");
-        Students s2=new Students();
-        s2.name="Akhil";
-        s2.rno=102;
-        s2.dept="CSE";
-        s2.display();
-        System.out.println("---------------------------");
-        Students s3=new Students(s1);
-        s3.display();
+//        Students s2=new Students();
+//        s2.name="Akhil";
+//        s2.rno=102;
+//        s2.dept="CSE";
+//        s2.display();
+//        System.out.println("---------------------------");
+//        Students s3=new Students(s1);
+//        s3.display();
         Students s4=new Students();
+        System.out.println("----------------------");
+        Students s5=new Students();
+        s5.display();
+
     }
 
 }
