@@ -1,4 +1,4 @@
-package DSA.Array.SortingAlgorithms;
+package DSA.Day10;
 
 import java.util.Arrays;
 
